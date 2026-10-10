@@ -1,0 +1,26 @@
+column,dtype,pct_missing,n_unique,min,max
+Polymer,str,0.0,11,,
+SMILES,str,0.0,11,,
+P_MW,float64,37.42,14,22000.0,475637.0
+P_wt%,float64,0.0,20,5.0,21.0
+surface tension (mN/m),float64,20.13,5,29.2,63.55
+pore maker,str,0.0,4,,
+pore maker molecular weight (Da),float64,31.13,12,400.0,58000.0
+pore maker wt% (pore maker to total weight),float64,0.0,13,0.0,10.0
+additive,str,0.0,72,,
+additive wt% (additive to polymer),float64,0.0,27,0.0,15.0
+organic solvent,str,0.0,5,,
+solubility parameter (MPa1/2),float64,1.57,4,22.7,26.7
+TMP (bar),float64,0.0,10,0.689,4.14
+organic compound,str,0.0,13,,
+oraganic compound concentration (mg/L),int64,0.0,9,10,1000
+organic compound size (Da),float64,19.5,13,350.32,68000.0
+foulant,str,0.0,4,,
+foulant concentration (mg/L),int64,0.0,8,10,1000
+water permeability (LMH/bar),float64,0.0,206,10.0,809.06
+organic compound removal (%),float64,0.0,140,18.0,99.59
+flux decline ratio (%),float64,0.0,211,5.200000000000003,83.5
+flux recovery ratio (%),float64,0.0,146,27.0,91.3
+reversible fouling ratio (%),float64,0.0,166,0.35,82.5
+irreversible fouling ratio(%),float64,0.0,146,8.700000000000003,73.0
+DOI,str,0.0,53,,

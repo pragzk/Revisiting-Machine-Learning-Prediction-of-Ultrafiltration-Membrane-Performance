@@ -1,0 +1,74 @@
+{
+  "water permeability (LMH/bar)": {
+    "model": "LightGBM",
+    "r2_mean": 0.7915395378410728,
+    "r2_std": 0.06630623664670503,
+    "rmse_mean": 72.75788754127298,
+    "rmse_std": 13.573492608583312,
+    "n_seeds": 30,
+    "seconds": 1348.857114315033
+  },
+  "organic compound removal (%)": {
+    "model": "GradientBoosting",
+    "r2_mean": 0.8117760689558543,
+    "r2_std": 0.14054603924039802,
+    "rmse_mean": 6.797190956930838,
+    "rmse_std": 2.3947191403450767,
+    "n_seeds": 30,
+    "seconds": 3242.1580770015717
+  },
+  "flux decline ratio (%)": {
+    "model": "GradientBoosting",
+    "r2_mean": 0.8048075438248626,
+    "r2_std": 0.05424642881396672,
+    "rmse_mean": 8.311292113098693,
+    "rmse_std": 1.1436075255504772,
+    "n_seeds": 30,
+    "seconds": 4233.793704032898
+  },
+  "flux recovery ratio (%)": {
+    "model": "LightGBM",
+    "r2_mean": 0.5628948331048901,
+    "r2_std": 0.09361742559222071,
+    "rmse_mean": 8.17260097897426,
+    "rmse_std": 0.7545171121637428,
+    "n_seeds": 30,
+    "seconds": 1289.348474740982
+  },
+  "reversible fouling ratio (%)": {
+    "model": "GradientBoosting",
+    "r2_mean": 0.7838122454901718,
+    "r2_std": 0.05967566122714354,
+    "rmse_mean": 8.912756117975936,
+    "rmse_std": 1.3069292201044425,
+    "n_seeds": 30,
+    "seconds": 1344.4339287281036
+  },
+  "overall porosity (%)": {
+    "model": "GradientBoosting",
+    "r2_mean": 0.6344210034517173,
+    "r2_std": 0.10710011910715164,
+    "rmse_mean": 7.66539438599213,
+    "rmse_std": 1.4061194371718964,
+    "n_seeds": 15,
+    "seconds": 929.4476947784424
+  },
+  "mean pore radius (nm)": {
+    "model": "KernelRidge_rbf",
+    "r2_mean": 0.8236017044385965,
+    "r2_std": 0.08006006285204055,
+    "rmse_mean": 9.34590437835012,
+    "rmse_std": 2.1554382825943477,
+    "n_seeds": 15,
+    "seconds": 60.801433801651
+  },
+  "contact angle (degree)": {
+    "model": "GradientBoosting",
+    "r2_mean": 0.7692369411559306,
+    "r2_std": 0.08496267654504286,
+    "rmse_mean": 5.837888818602768,
+    "rmse_std": 1.2586444311090081,
+    "n_seeds": 15,
+    "seconds": 12252.165547847748
+  }
+}

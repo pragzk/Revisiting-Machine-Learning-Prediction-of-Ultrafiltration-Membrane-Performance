@@ -1,0 +1,9 @@
+﻿target,model,train_R2,train_RMSE,test_R2,test_RMSE,source_file
+water permeability (LMH/bar),LightGBM,0.979457136,23.20931649,0.881417251,53.02199924,06_train_test_batch1.json
+organic compound removal (%),GradientBoosting,0.998960745,0.533713968,0.852395498,6.755241471,06_train_test_batch1.json
+flux decline ratio (%),GradientBoosting,0.994407133,1.461328436,0.809279993,7.85437795,06_train_test_batch1.json
+flux recovery ratio (%),LightGBM,0.926735362,3.540324867,0.618749669,7.375739838,flux_recovery_reconciled.json
+reversible fouling ratio (%),GradientBoosting,0.996935648,1.09511181,0.864200608,6.915597003,06_train_test_batch1.json
+overall porosity (%),GradientBoosting,0.970787487,2.138046107,0.716649867,6.486915696,06_train_test_batch1.json
+mean pore radius (nm),KernelRidge_rbf,0.961096074,4.358969852,0.809988956,9.768683873,06_train_test_batch1.json
+contact angle (degree),GradientBoosting,0.999220435,0.363742313,0.802600038,4.108041585,06_train_test_batch1.json

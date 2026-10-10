@@ -1,0 +1,136 @@
+{
+  "water permeability (LMH/bar)": {
+    "model": "LightGBM",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 439,
+      "learning_rate": 0.23508205868305662,
+      "num_leaves": 95,
+      "min_child_samples": 5,
+      "reg_alpha": 0.05006716746393504,
+      "reg_lambda": 4.821016356108398,
+      "subsample": 0.5992866544068995,
+      "colsample_bytree": 0.6655575145451469
+    },
+    "train_r2": 0.979457136135048,
+    "train_rmse": 23.209316491388197,
+    "test_r2": 0.8814172507437505,
+    "test_rmse": 53.0219992365012,
+    "n_train": 254,
+    "n_test": 64
+  },
+  "organic compound removal (%)": {
+    "model": "GradientBoosting",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 462,
+      "learning_rate": 0.13745779262399263,
+      "max_depth": 4,
+      "subsample": 0.5526439115257666
+    },
+    "train_r2": 0.9989607448494237,
+    "train_rmse": 0.5337139677779987,
+    "test_r2": 0.8523954983575119,
+    "test_rmse": 6.755241471470133,
+    "n_train": 254,
+    "n_test": 64
+  },
+  "flux decline ratio (%)": {
+    "model": "GradientBoosting",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 344,
+      "learning_rate": 0.014786970284524081,
+      "max_depth": 8,
+      "subsample": 0.7410957007139991
+    },
+    "train_r2": 0.9944071333825433,
+    "train_rmse": 1.4613284363996693,
+    "test_r2": 0.8092799928787686,
+    "test_rmse": 7.854377950478913,
+    "n_train": 254,
+    "n_test": 64
+  },
+  "flux recovery ratio (%)": {
+    "model": "LightGBM",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 462,
+      "learning_rate": 0.06436199029997042,
+      "num_leaves": 54,
+      "min_child_samples": 18,
+      "reg_alpha": 0.03310287764605266,
+      "reg_lambda": 3.494663967367761,
+      "subsample": 0.9813296704684926,
+      "colsample_bytree": 0.5583660350561642
+    },
+    "train_r2": 0.9267353623966803,
+    "train_rmse": 3.540324867332443,
+    "test_r2": 0.6187496693351595,
+    "test_rmse": 7.375739837592343,
+    "n_train": 254,
+    "n_test": 64
+  },
+  "reversible fouling ratio (%)": {
+    "model": "GradientBoosting",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 307,
+      "learning_rate": 0.06848672986591556,
+      "max_depth": 8,
+      "subsample": 0.6414687974559197
+    },
+    "train_r2": 0.9969356479112642,
+    "train_rmse": 1.0951118103964093,
+    "test_r2": 0.8642006084596857,
+    "test_rmse": 6.915597003084758,
+    "n_train": 254,
+    "n_test": 64
+  },
+  "overall porosity (%)": {
+    "model": "GradientBoosting",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 419,
+      "learning_rate": 0.032951450711187116,
+      "max_depth": 5,
+      "subsample": 0.7454855636865805
+    },
+    "train_r2": 0.9707874869981763,
+    "train_rmse": 2.138046107448838,
+    "test_r2": 0.7166498669500528,
+    "test_rmse": 6.486915695987155,
+    "n_train": 240,
+    "n_test": 61
+  },
+  "mean pore radius (nm)": {
+    "model": "KernelRidge_rbf",
+    "seed": 1000,
+    "best_params": {
+      "alpha": 0.013117333606746256,
+      "gamma": 0.006367439117351735
+    },
+    "train_r2": 0.9610960740710773,
+    "train_rmse": 4.358969852449096,
+    "test_r2": 0.8099889564810125,
+    "test_rmse": 9.768683873279887,
+    "n_train": 240,
+    "n_test": 61
+  },
+  "contact angle (degree)": {
+    "model": "GradientBoosting",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 435,
+      "learning_rate": 0.1352142986349415,
+      "max_depth": 6,
+      "subsample": 0.5084709685171858
+    },
+    "train_r2": 0.9992204353727534,
+    "train_rmse": 0.36374231280154756,
+    "test_r2": 0.8026000382815397,
+    "test_rmse": 4.108041585170233,
+    "n_train": 240,
+    "n_test": 61
+  }
+}

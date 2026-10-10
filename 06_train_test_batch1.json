@@ -1,0 +1,138 @@
+{
+  "water permeability (LMH/bar)": {
+    "model": "ExtraTrees",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 477,
+      "max_depth": 14,
+      "min_samples_leaf": 1,
+      "max_features": 0.6799519532163962
+    },
+    "train_r2": 0.9773703896126181,
+    "train_rmse": 24.359613600519108,
+    "test_r2": 0.8367845636035804,
+    "test_rmse": 62.20509489324344,
+    "n_train": 254,
+    "n_test": 64
+  },
+  "organic compound removal (%)": {
+    "model": "LightGBM",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 443,
+      "learning_rate": 0.2737498921023659,
+      "num_leaves": 58,
+      "min_child_samples": 9,
+      "reg_alpha": 0.0011539480797898524,
+      "reg_lambda": 0.8509037621209101,
+      "subsample": 0.8498481780786944,
+      "colsample_bytree": 0.883751936845351
+    },
+    "train_r2": 0.9975298188614705,
+    "train_rmse": 0.8228333330507722,
+    "test_r2": 0.7902228192321665,
+    "test_rmse": 8.053231780265008,
+    "n_train": 254,
+    "n_test": 64
+  },
+  "flux decline ratio (%)": {
+    "model": "HistGradientBoosting",
+    "seed": 1000,
+    "best_params": {
+      "max_iter": 408,
+      "learning_rate": 0.13843260091208046,
+      "max_depth": 6,
+      "l2_regularization": 0.07522647754501029
+    },
+    "train_r2": 0.9843076549986635,
+    "train_rmse": 2.4477920966618676,
+    "test_r2": 0.7732336952808786,
+    "test_rmse": 8.564518068977206,
+    "n_train": 254,
+    "n_test": 64
+  },
+  "flux recovery ratio (%)": {
+    "model": "HistGradientBoosting",
+    "seed": 1000,
+    "best_params": {
+      "max_iter": 336,
+      "learning_rate": 0.08202668989021371,
+      "max_depth": 8,
+      "l2_regularization": 8.61549953742704
+    },
+    "train_r2": 0.913855209219501,
+    "train_rmse": 3.8389320316714604,
+    "test_r2": 0.6378018458906567,
+    "test_rmse": 7.189084550960575,
+    "n_train": 254,
+    "n_test": 64
+  },
+  "reversible fouling ratio (%)": {
+    "model": "LightGBM",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 358,
+      "learning_rate": 0.04781726728907352,
+      "num_leaves": 102,
+      "min_child_samples": 8,
+      "reg_alpha": 0.0004761750410459413,
+      "reg_lambda": 1.8095135161613256,
+      "subsample": 0.6989353888184642,
+      "colsample_bytree": 0.5000461908593508
+    },
+    "train_r2": 0.9805191892053946,
+    "train_rmse": 2.7611668144728916,
+    "test_r2": 0.8446602842958488,
+    "test_rmse": 7.396427734200647,
+    "n_train": 254,
+    "n_test": 64
+  },
+  "mean pore radius (nm)": {
+    "model": "ExtraTrees",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 477,
+      "max_depth": 14,
+      "min_samples_leaf": 1,
+      "max_features": 0.6799519532163962
+    },
+    "train_r2": 0.9984627167181803,
+    "train_rmse": 0.8664910926372501,
+    "test_r2": 0.8012021107941034,
+    "test_rmse": 9.992002140771039,
+    "n_train": 240,
+    "n_test": 61
+  },
+  "overall porosity (%)": {
+    "model": "ExtraTrees",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 285,
+      "max_depth": 27,
+      "min_samples_leaf": 3,
+      "max_features": 0.4778129856811481
+    },
+    "train_r2": 0.7715881087566454,
+    "train_rmse": 5.978496263709064,
+    "test_r2": 0.5225872449496962,
+    "test_rmse": 8.420222203445158,
+    "n_train": 240,
+    "n_test": 61
+  },
+  "contact angle (degree)": {
+    "model": "ExtraTrees",
+    "seed": 1000,
+    "best_params": {
+      "n_estimators": 242,
+      "max_depth": 22,
+      "min_samples_leaf": 1,
+      "max_features": 0.9981615720294179
+    },
+    "train_r2": 0.9979349150234684,
+    "train_rmse": 0.5920204723452455,
+    "test_r2": 0.6487238787551421,
+    "test_rmse": 5.480063785928946,
+    "n_train": 240,
+    "n_test": 61
+  }
+}

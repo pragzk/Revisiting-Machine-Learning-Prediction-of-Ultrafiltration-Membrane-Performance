@@ -1,0 +1,54 @@
+{
+  "flux decline ratio (%)": {
+    "train_r2": 0.9920873197472311,
+    "train_rmse": 1.7381706511159272,
+    "test_r2": 0.814817854390969,
+    "test_rmse": 7.73950569765476,
+    "weights": {
+      "GradientBoosting": 0.1291952792113856,
+      "RandomForest": 0.12142760300663383,
+      "ExtraTrees": 0.12756987262968528
+    }
+  },
+  "organic compound removal (%)": {
+    "train_r2": 0.9994455172717734,
+    "train_rmse": 0.3898445681456427,
+    "test_r2": 0.8564547983604359,
+    "test_rmse": 6.661705296681364,
+    "weights": {
+      "GradientBoosting": 0.20625296833319504,
+      "LightGBM": 0.16385793734104057,
+      "SVR_rbf": 0.1657460074455926
+    }
+  },
+  "mean pore radius (nm)": {
+    "train_r2": 0.9737105725650724,
+    "train_rmse": 3.5832549897363393,
+    "test_r2": 0.826383533637002,
+    "test_rmse": 9.337746731689917,
+    "weights": {
+      "KernelRidge_rbf": 0.1056007997795805,
+      "RandomForest": 0.09784667892403387
+    }
+  },
+  "overall porosity (%)": {
+    "train_r2": 0.9162741172315165,
+    "train_rmse": 3.6196157968435574,
+    "test_r2": 0.6972557335889474,
+    "test_rmse": 6.705242775221479,
+    "weights": {
+      "GradientBoosting": 0.10917468368599567,
+      "KernelRidge_rbf": 0.10543212739240686
+    }
+  },
+  "contact angle (degree)": {
+    "train_r2": 0.9844377726095791,
+    "train_rmse": 1.6251881232724297,
+    "test_r2": 0.8060177384272142,
+    "test_rmse": 4.07232385516689,
+    "weights": {
+      "GradientBoosting": 0.15498675176352644,
+      "KernelRidge_rbf": 0.1364833443459639
+    }
+  }
+}

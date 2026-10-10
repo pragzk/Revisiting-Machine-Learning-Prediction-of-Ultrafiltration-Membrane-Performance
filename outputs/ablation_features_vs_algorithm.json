@@ -1,0 +1,32 @@
+{
+  "water permeability (LMH/bar)": {
+    "old_features__old_algo_xgboost": 0.8244438086053794,
+    "old_features__new_algo_lightgbm": 0.8627075939498682,
+    "new_features__old_algo_xgboost": 0.8439096042989788,
+    "new_features__new_algo_lightgbm": 0.8814172507437505
+  },
+  "organic compound removal (%)": {
+    "old_features__old_algo_xgboost": 0.8084095883235688,
+    "old_features__new_algo_gradientboosting": 0.8379024086214287,
+    "new_features__old_algo_xgboost": 0.7905086029392535,
+    "new_features__new_algo_gradientboosting": 0.8523954983575119
+  },
+  "flux decline ratio (%)": {
+    "old_features__old_algo_xgboost": 0.8264159308046415,
+    "old_features__new_algo_gradientboosting": 0.7944293849697701,
+    "new_features__old_algo_xgboost": 0.7836540832511582,
+    "new_features__new_algo_gradientboosting": 0.8092799928787686
+  },
+  "flux recovery ratio (%)": {
+    "old_features__old_algo_xgboost": 0.5702560154303159,
+    "old_features__new_algo_histgradientboosting": 0.5822972327621116,
+    "new_features__old_algo_xgboost": 0.6104947124595048,
+    "new_features__new_algo_histgradientboosting": 0.600860596304511
+  },
+  "reversible fouling ratio (%)": {
+    "old_features__old_algo_xgboost": 0.8366255088164212,
+    "old_features__new_algo_gradientboosting": 0.8103418211864466,
+    "new_features__old_algo_xgboost": 0.8703148833517502,
+    "new_features__new_algo_gradientboosting": 0.8642006084596857
+  }
+}

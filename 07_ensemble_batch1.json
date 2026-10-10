@@ -1,0 +1,30 @@
+{
+  "mean pore radius (nm)": {
+    "ensemble_r2": 0.8091636832295803,
+    "ensemble_rmse": 9.789875006672778,
+    "weights": {
+      "ExtraTrees": 0.10624497697198816,
+      "LightGBM": 0.15057067284223136
+    }
+  },
+  "overall porosity (%)": {
+    "ensemble_r2": 0.6145052342249948,
+    "ensemble_rmse": 7.566338840194175,
+    "weights": {
+      "ExtraTrees": 0.09660455092498073,
+      "LightGBM": 0.11678240812039328
+    }
+  },
+  "contact angle (degree)": {
+    "ensemble_r2": 0.7163026315255986,
+    "ensemble_rmse": 4.924804022621609,
+    "weights": {
+      "ExtraTrees": "0.12162311208236168",
+      "LightGBM": "0.14356637285564397"
+    }
+  },
+  "organic compound removal (%)": {
+    "ensemble_r2": 0.7875255991555571,
+    "ensemble_rmse": 8.104838830330605
+  }
+}

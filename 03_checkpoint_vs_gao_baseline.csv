@@ -1,0 +1,6 @@
+target,gao_r2,gao_rmse,best_model_random_split,our_r2_random_split,our_rmse_random_split,beats_gao_random_split_R2,grouped_r2_same_model,best_grouped_r2_any_model
+water permeability (LMH/bar),0.83,68.24,RandomForest,0.848+/-0.040,62.12+/-8.60,True,0.296,0.383
+organic compound removal (%),0.84,6.6,GaussianProcess,0.800+/-0.095,7.18+/-1.76,False,-0.287,-0.173
+flux decline ratio (%),0.78,9.5,LightGBM,0.798+/-0.045,8.48+/-0.96,True,-1.3,-0.814
+flux recovery ratio (%),0.62,7.89,GradientBoosting,0.576+/-0.099,8.03+/-0.87,False,-0.181,-0.021
+reversible fouling ratio (%),0.73,10.33,LightGBM,0.779+/-0.069,9.00+/-1.47,True,-1.063,-0.395

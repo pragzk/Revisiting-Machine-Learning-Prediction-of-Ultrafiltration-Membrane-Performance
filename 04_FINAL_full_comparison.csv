@@ -1,0 +1,9 @@
+target,ds,gao_train_r2,gao_test_r2,gao_test_rmse,gao_train_test_gap,our_model,our_single_split_r2,gap_vs_gao_single,our_cv_r2_mean,our_cv_r2_std,gap_vs_gao_cv
+water permeability (LMH/bar),A,0.97,0.83,68.24,0.14,ExtraTrees,0.72,-0.11,0.75,0.087,-0.08
+organic compound removal (%),A,0.99,0.84,6.6,0.15,LightGBM,0.82,-0.02,0.752,0.082,-0.088
+flux decline ratio (%),A,0.96,0.78,9.5,0.18,HistGB,0.825,0.045,0.708,0.077,-0.072
+flux recovery ratio (%),A,0.87,0.62,7.89,0.25,HistGB,0.611,-0.009,0.529,0.106,-0.091
+reversible fouling ratio (%),A,0.96,0.73,10.33,0.23,LightGBM,0.708,-0.022,0.716,0.061,-0.014
+overall porosity (%),B,0.96,0.66,7.61,0.3,ExtraTrees,0.621,-0.039,0.431,0.122,-0.229
+mean pore radius (nm),B,0.98,0.87,7.59,0.11,ExtraTrees,0.928,0.058,0.821,0.068,-0.049
+contact angle (degree),B,0.98,0.76,5.87,0.22,SVR,0.626,-0.134,0.591,0.101,-0.169
